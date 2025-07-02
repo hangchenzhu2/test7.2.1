@@ -21,14 +21,14 @@
     "react-dom": "18.2.0",
     "react-dropzone": "^14.2.2",
     "react-spinners": "^0.13.8",
-    "replicate": "^1.0.1"
-  },
-  "devDependencies": {
+    "replicate": "^1.0.1",
     "autoprefixer": "^10.4.8",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "tailwindcss-animate": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
   }
 }
