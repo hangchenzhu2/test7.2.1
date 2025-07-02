@@ -1,0 +1,30 @@
+# robots.txt for van Gogh AI Paint by Text
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Block access to unnecessary directories
+Disallow: /_next/
+Disallow: /api/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env*
+
+# Allow access to important pages
+Allow: /en/
+Allow: /zh/
+Allow: /es/
+Allow: /fr/
+Allow: /de/
+Allow: /ja/
+Allow: /ko/
+Allow: /ar/
+Allow: /ru/
+Allow: /pt/
+Allow: /it/
+Allow: /nl/
+Allow: /hi/
+
+# Sitemap location
+Sitemap: https://vangoghai.top/sitemap.xml 

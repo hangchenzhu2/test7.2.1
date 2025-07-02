@@ -1,0 +1,57 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="paletteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 明亮的背景圆形 -->
+  <circle cx="16" cy="16" r="16" fill="url(#bg)"/>
+  
+  <!-- 调色板主体 -->
+  <ellipse cx="15" cy="17" rx="10" ry="8" fill="url(#paletteGradient)" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- 调色板拇指孔 -->
+  <ellipse cx="22" cy="19" rx="2.5" ry="3" fill="url(#bg)"/>
+  <ellipse cx="22" cy="19" rx="2.5" ry="3" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- 颜料点 - 主要颜色 -->
+  <!-- 红色 -->
+  <circle cx="10" cy="13" r="1.8" fill="#ef4444"/>
+  <circle cx="10" cy="13" r="1.3" fill="#dc2626" opacity="0.8"/>
+  
+  <!-- 蓝色 -->
+  <circle cx="15" cy="12" r="1.8" fill="#3b82f6"/>
+  <circle cx="15" cy="12" r="1.3" fill="#2563eb" opacity="0.8"/>
+  
+  <!-- 黄色 -->
+  <circle cx="20" cy="13" r="1.8" fill="#facc15"/>
+  <circle cx="20" cy="13" r="1.3" fill="#eab308" opacity="0.8"/>
+  
+  <!-- 绿色 -->
+  <circle cx="8" cy="18" r="1.8" fill="#22c55e"/>
+  <circle cx="8" cy="18" r="1.3" fill="#16a34a" opacity="0.8"/>
+  
+  <!-- 紫色 -->
+  <circle cx="13" cy="20" r="1.8" fill="#a855f7"/>
+  <circle cx="13" cy="20" r="1.3" fill="#9333ea" opacity="0.8"/>
+  
+  <!-- 橙色 -->
+  <circle cx="18" cy="21" r="1.8" fill="#f97316"/>
+  <circle cx="18" cy="21" r="1.3" fill="#ea580c" opacity="0.8"/>
+  
+  <!-- 画笔 -->
+  <rect x="24" y="5" width="2" height="10" rx="1" fill="#8b4513" transform="rotate(30 25 10)"/>
+  <ellipse cx="26.5" cy="6.5" rx="1.5" ry="2" fill="#1f2937" transform="rotate(30 26.5 6.5)"/>
+  <path d="M26 7 L28 5" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- 一些颜料混合效果 -->
+  <circle cx="16" cy="16" r="0.8" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="11" cy="16" r="0.6" fill="#ec4899" opacity="0.5"/>
+</svg> 
